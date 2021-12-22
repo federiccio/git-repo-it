@@ -57,8 +57,8 @@ git init
 
 ### Configuracion Inicial Nombre/Mail/Listo configuraciones
 ```sh
-λ git config user.name "FedeR"
-λ git config user.email "fede.riccio@hotmail.com"
+git config user.name "FedeR"
+git config user.email "fede.riccio@hotmail.com"
 git config --get-regexp user
 ```
 
@@ -90,4 +90,13 @@ git log
 ### Log (info del Commit - resumido)
 ```sh
 git log --oneline
+```
+
+### Pasos para subir mi repo local al remoto
+```sh
+1. git init
+2. git add README.md
+3. git commit -m "first commit"
+4. git remote add origin https://github.com/federiccio/git-repo-it.git
+5. git push -u origin main
 ```

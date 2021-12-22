@@ -50,6 +50,11 @@ rm -rf <carpeta/archivo>
 git init && npm init -y && touch index.html && mkdir css && mkdir js
 ```
 
+## Inicialización del proyecto
+```sh
+git init
+```
+
 ### Configuracion Inicial Nombre/Mail/Listo configuraciones
 ```sh
 λ git config user.name "FedeR"
@@ -57,8 +62,32 @@ git init && npm init -y && touch index.html && mkdir css && mkdir js
 git config --get-regexp user
 ```
 
-## Inicialización del proyecto
+## Status: Compara el WD con el commit
 ```sh
-git init
+git status
 ```
 
+## Paso del Working Directory (WD) al Index (Staged)
+```sh
+git add <archivo>
+```
+
+## Paso del WD al Index
+```sh
+git add .
+```
+
+## Para pasar del INDEX al REPOSITORIO LOCAL
+```sh
+git commit -m "Agrego el README.md" <archivo>
+```
+
+### Log (info del Commit - identificación univoca)
+```sh
+git log
+```
+
+### Log (info del Commit - resumido)
+```sh
+git log --oneline
+```

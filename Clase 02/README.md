@@ -34,3 +34,8 @@ git log --oneline --decorate --all --graph
 ```sh
 git push
 ```
+
+## GIT IGNORE
+Sirve para ignorar archivos que no quiero seguir.
+
+Creo el archivo **.gitignore** en el directorio raìz y dentro coloco el nombre del archivo o la carpeta que quiero seguir.

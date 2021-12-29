@@ -113,3 +113,8 @@ git checkout -d <nombre-rama>
 ```sh
 git branch -D <nombre-rama>
 ```
+
+#### Detallar los branches en log
+```sh
+git log --oneline --decorate --all --graph
+```

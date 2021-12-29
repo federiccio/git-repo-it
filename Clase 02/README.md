@@ -84,3 +84,22 @@ git status --short
 
 ## RAMAS (BRANCHES)
 
+#### Listo las ramas
+```sh
+git branch
+```
+
+#### Creo rama
+```sh
+git branch <nombre-rama>
+```
+
+#### Cambio a otra ramas
+```sh
+git switch <nombre-rama>
+```
+
+#### Crear y mover a esa rama
+```sh
+git checkout -b <nombre-rama>
+```

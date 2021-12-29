@@ -45,4 +45,42 @@ Me permite seguir una carpeta vacía
 
 Creo un archivo llamado **.gitkeep** que lo que hace es tener en cuenta la carpeta vacío
 
+### IMPORTANTE: Forma corta de hacer un git add y un git commit.
+**NOTA:** Tengo que tener todos los archivos seguidos (al menos un add). Si tengo algunos untracked esos archivos no se van a comitear
+
+```sh
+git commit -am "Mensaje"
+```
+
 ### REMOTE
+```sh
+git remote
+```
+
+#### Lista de alias de remotos y url
+```sh
+git remote -v
+```
+
+#### Agrego alias al remoto
+```sh
+git remote add <nombre-alias> <url-repo>
+```
+
+#### Renombra el alias de la URL del remoto
+```sh
+git remote rename <nombre-alias> <url-repo>
+```
+
+#### Borrar el remoto
+```sh
+git remote rm <alias-del-remoto>
+```
+
+#### Forma corta de ver los los cambios en el WD (working directory)
+```sh
+git status --short
+```
+
+## RAMAS (BRANCHES)
+

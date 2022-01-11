@@ -17,3 +17,9 @@ git branch <nombre-rama>
 git switch <nombre-rama>
 ```
 
+## Git Merge
+
+### Tipos de Merge
+
+Fast-Forward: No hay ningún cambio que se solape con lo que está en la otra rama
+

@@ -21,5 +21,14 @@ git switch <nombre-rama>
 
 ### Tipos de Merge
 
-Fast-Forward: No hay ningún cambio que se solape con lo que está en la otra rama
+Se recomienda un commit por funcionalidad
 
+Fast-Forward - Unión Automática
+No hay ningún cambio que se solape con lo que está en la otra rama
+En nuestro ejemplo quiero traerme los cambios a master. Switch a Master y luego git merge clase03
+
+Recursivas - Uniones automáticas
+No hay coliciones de cambio
+
+Manual - Conflictos
+Ocurre cuando hay modificaciones en las mismas líneas

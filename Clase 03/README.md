@@ -18,6 +18,9 @@ git switch <nombre-rama>
 ```
 
 ## Git Merge
+```sh
+git merge --abort
+```
 
 ### Tipos de Merge
 

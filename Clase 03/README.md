@@ -23,3 +23,8 @@ git switch <nombre-rama>
 
 Fast-Forward: No hay ningún cambio que se solape con lo que está en la otra rama
 
+Agrego cosas que quiero tener en consideración.
+
+* Tener en cuenta subir una rama al remoto
+* ver clone
+* ver fork

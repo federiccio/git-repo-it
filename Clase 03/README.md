@@ -21,7 +21,7 @@ git switch <nombre-rama>
 
 ### Tipos de Merge
 
-Se recomienda un commit por funcionalidad
+Se recomienda un commit por funcionalidad (o día)
 
 Fast-Forward - Unión Automática
 No hay ningún cambio que se solape con lo que está en la otra rama

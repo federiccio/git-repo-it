@@ -36,11 +36,10 @@ No hay colisiones de cambio
 Manual - Conflictos
 Ocurre cuando hay modificaciones en las mismas líneas
 
-### Abortar el Merge
+## Merge Abort
 ```sh
 git merge --abort
 ```
-
 
 ### Agrego cosas que quiero tener en consideración.
 

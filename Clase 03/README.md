@@ -41,3 +41,5 @@ Ocurre cuando hay modificaciones en las mismas líneas
 * Tener en cuenta subir una rama al remoto
 * ver clone
 * ver fork
+
+##### Agrego cualquier cosa para generar conflicto de merge

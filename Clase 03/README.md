@@ -19,7 +19,7 @@ git switch <nombre-rama>
 
 ## Git Merge
 ```sh
-git merge --abort
+git merge <nombre-rama>
 ```
 
 ### Tipos de Merge
@@ -35,6 +35,12 @@ No hay colisiones de cambio
 
 Manual - Conflictos
 Ocurre cuando hay modificaciones en las mismas líneas
+
+### Abortar el Merge
+```sh
+git merge --abort
+```
+
 
 ### Agrego cosas que quiero tener en consideración.
 

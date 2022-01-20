@@ -47,4 +47,23 @@ git merge --abort
 * ver clone
 * ver fork
 
-##### Agrego cualquier cosa para generar conflicto de merge
+## ALIAS
+
+### Para editar el archivo de configuración de GIT
+Para entrar a Nano
+```sh
+git config -e
+```
+### Cómo creo un alias?
+```sh
+git config alias.lg "log --oneline --decorate --all --graph"
+git config alias.l "log --oneline"
+```
+### Para chequear la configuracion de los Alias
+```sh
+git config --get-regexp alias
+```
+### Para eliminar un alias
+```sh
+git config --unset alias.<nombre alias>
+```

@@ -41,13 +41,3 @@ Ocurre cuando hay modificaciones en las mismas líneas
 * Tener en cuenta subir una rama al remoto
 * ver clone
 * ver fork
-
-Fast-Forward - Unión Automática
-No hay ningún cambio que se solape con lo que está en la otra rama
-En nuestro ejemplo quiero traerme los cambios a master. Switch a Master y luego git merge clase03
-
-Recursivas - Uniones automáticas
-No hay coliciones de cambio
-
-Manual - Conflictos
-Ocurre cuando hay modificaciones en las mismas líneas
